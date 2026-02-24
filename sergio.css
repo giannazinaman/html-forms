@@ -1,0 +1,51 @@
+body{
+    background-color: #e6c9b3;
+}
+ 
+h1{
+    color: #591207;
+    text-align: center;
+    font-size: 40px;
+}
+ 
+.box{
+   border: double, 7px, #c66449;
+   padding: 20px;
+   padding-bottom: 35px;
+   
+}
+ 
+button{
+    float: right;
+    background-color: #c66449;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color:#591207;
+}
+ 
+input{
+    background-color: #ba8e64;
+    color: #591207;
+    border-radius: 5px;
+}
+ 
+label{
+    color: #591207;
+}
+ 
+select, textarea{
+    background-color: #ba8e64;
+    color: #591207;
+}
+ 
+input:required::placeholder {
+  color: #c66449;
+}
+ 
+footer{
+    background-color: #c66449;
+    text-align: center;
+    font-size: 17px;
+    color: #591207;
+}
